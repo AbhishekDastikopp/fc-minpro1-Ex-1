@@ -1,0 +1,83 @@
+.bacon{
+  background-color: green;
+  width: 200px;
+  margin-left: 35%;
+  margin-right: 5%;
+
+}
+
+.broccoli{
+  background-color: red;
+  width: 200px;
+  
+
+
+
+}
+
+
+
+#heading{
+
+  font-size: 120px;
+  color: #03045E ;
+  text-align: center;
+  border: solid;
+  border-color: #7A0BC0;
+  border-radius: 80px;
+
+  animation-name: color;
+  animation-duration: 5s;
+
+
+}
+
+@keyframes color {
+
+0%   {color: red;}
+25%  {color: #362222;}
+50%  {color: #FC28FB;}
+100% {color: #072227;}
+}
+
+.circular{
+  border-radius: 100%;
+
+}
+
+img:hover{
+  background-color: gold;
+
+}
+
+body{
+  background-color: #B8E4F0;
+}
+
+.p1{
+  font-style: italic;
+  font-size: 1em;
+  text-align: center ;
+
+}
+
+/* @keyframes p1 {
+  0% {top: 0px;}
+
+} */
+
+.p2{
+  font-style: italic;
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+
+
+.p3{
+  font-style: italic;
+  font-size: 2em;
+  text-align: center;
+
+}
